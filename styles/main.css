@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*BANNER*/
+  .wrapper {
+    overflow: hidden;
+    width: 960px;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  
+  .banner h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  h1 {
+    font-family: helvetica;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .banner h2 {
+    color: white;
+    position: absolute;
+    text-align: left;
+    padding: 15px;
+    bottom: 40px;
+    left: 100px;
+    font-size: 20px;
+    font-family: helvetica;
+    background-color: rgba(76, 153, 241, 0.4);
+  }
+  
+  /*SOBRE MI*/
+  .about {
+    margin: -4px;
+    padding: 25px;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+  
+  .about h2 {
+    padding: 2px;
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+    font-size: 20px;
+  }
+  
+  .about p {
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 30px;
+  }
+  
+  .about a {
+    position: relative;
+    background-color: #d16fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    left: 50px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+
+  
+  .portafolio {
+    background-color: #ffd233;
+    text-align: center;
+  }
+  
+  .portafolio h2 {
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  
+  
+  /*Clientes*/
+  .clientes{
+      background-color: #3F4E62;
+  }
+  
+  .clientes h2{
+      text-align: center;
+      color: white;
+      font-family: Arial;
+      font-style: normal;
+      font-size: 20px;
+      margin: auto;
+      padding: 10px;
+  }
+  
+  .clientes figure{
+      padding: 50px;
+      margin: 0 50px;  ;
+      width: 100%;
+  }
+  
+  /*Formulario*/
+  
+  .form{
+      padding: 50px;
+      position: relative;
+      background-color: rgb(9, 87, 133);
+      
+  }
+  
+  .form h2{
+      margin: auto;
+      color: white;
+      text-align: center;
+  }
+  
+  .form form{
+      margin: auto;
+      padding: 50px;
+  }
+  
+  .form a{
+      position: absolute;
+      background-color: #233451;
+      padding: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+      text-decoration: none;
+      color: white;
+   left: 390px;
+   font-family: arial;
+   font-size: 20px;
+  }
